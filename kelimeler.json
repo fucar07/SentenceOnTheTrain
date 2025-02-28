@@ -1,0 +1,74 @@
+{
+    "c2array": true,
+    "size": [
+        2,
+        10,
+        1
+    ],
+    "data": [
+        [
+            [
+                "At the end of each academic year, a graduation ceremony is held, where students' achievements are celebrated."
+            ],
+            [
+                "In many schools, annual sports competitions have been organized for years to encourage teamwork and physical fitness."
+            ],
+            [
+                "Since the beginning of the semester, various cultural activities have been being organized to make school life more enjoyable."
+            ],
+            [
+                "The student council has been planning a charity event to support educational projects."
+            ],
+            [
+                "The school management has introduced stress-relief programs to help students cope with exam stress."
+            ],
+            [
+                "Mental health programs will be being developed to support students dealing with school pressure."
+            ],
+            [
+                "Final exams will be scheduled earlier next year to give students more time for university applications. "
+            ],
+            [
+                "Parents will attend meetings to discuss their children's progress and challenges at school."
+            ],
+            [
+                "Schools focus on mental health programs to help students cope with exam stress."
+            ],
+            [
+                "People will be celebrating national holidays with various ceremonies and traditions. "
+            ]
+        ],
+        [
+            [
+                "passive"
+            ],
+            [
+                "passive"
+            ],
+            [
+                "passive"
+            ],
+            [
+                "active"
+            ],
+            [
+                "active"
+            ],
+            [
+                "passive"
+            ],
+            [
+                "passive"
+            ],
+            [
+                "active"
+            ],
+            [
+                "active"
+            ],
+            [
+                "active"
+            ]
+        ]
+    ]
+}
