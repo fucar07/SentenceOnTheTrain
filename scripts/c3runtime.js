@@ -1450,7 +1450,7 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => (9 + v0.GetValue());
 		},
-		() => 10,
+		() => 60,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => and("Animation ", n0.ExpObject());
