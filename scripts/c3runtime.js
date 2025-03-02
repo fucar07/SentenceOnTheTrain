@@ -1520,6 +1520,8 @@ self.C3_ExpressionFuncs = [
 		() => 1920,
 		() => 1080,
 		() => 1.5,
+		() => 62,
+		() => "TIME IS UP",
 		() => "TRY AGAIN",
 		() => "bitis"
 ];

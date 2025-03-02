@@ -124,6 +124,7 @@ self.C3_JsPropNameTable = [
 	{Timer: 0},
 	{txt_sure: 0},
 	{tekrardene: 0},
+	{timeisup: 0},
 	{ButonAilesi: 0},
 	{AnaSayfaGorseller: 0},
 	{bitis: 0},
@@ -171,6 +172,7 @@ self.InstanceType = {
 	text_score: class extends self.ITextInstance {},
 	txt_sure: class extends self.ITextInstance {},
 	tekrardene: class extends self.ITextInstance {},
+	timeisup: class extends self.ITextInstance {},
 	ButonAilesi: class extends self.ISpriteInstance {},
 	AnaSayfaGorseller: class extends self.ISpriteInstance {},
 	bitis: class extends self.ISpriteInstance {}
