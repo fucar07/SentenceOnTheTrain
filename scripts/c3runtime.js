@@ -1488,6 +1488,7 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(100, 300);
 		},
+		() => "blonhareket",
 		p => {
 			const n0 = p._GetNode(0);
 			const f1 = p._GetNode(1).GetBoundMethod();
@@ -1513,6 +1514,10 @@ self.C3_ExpressionFuncs = [
 		() => -100,
 		() => 748,
 		() => 1050,
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(100, 200);
+		},
 		() => "Animation 1",
 		() => "Animation 2",
 		() => 960,

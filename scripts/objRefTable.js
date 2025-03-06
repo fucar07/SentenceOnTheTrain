@@ -70,6 +70,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Timer.Acts.StartTimer,
 		C3.Behaviors.Timer.Cnds.OnTimer,
 		C3.Plugins.Sprite.Acts.SetPos,
+		C3.Behaviors.Tween.Cnds.IsPlaying,
+		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Mouse.Acts.SetCursor,
 		C3.Plugins.Browser.Cnds.IsFullscreen,
