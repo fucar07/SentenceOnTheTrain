@@ -1454,8 +1454,9 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => (9 + v0.GetValue());
 		},
-		() => 3,
+		() => 4,
 		() => "sure",
+		() => 3,
 		() => 60,
 		p => {
 			const n0 = p._GetNode(0);
@@ -1486,7 +1487,12 @@ self.C3_ExpressionFuncs = [
 		() => "balyer",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0(100, 300);
+			return () => f0(100, 350);
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			const f1 = p._GetNode(1).GetBoundMethod();
+			return () => ((n0.ExpObject() - f1()) - 1);
 		},
 		() => "blonhareket",
 		p => {
@@ -1501,9 +1507,12 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(100, 300);
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
-			const v2 = p._GetNode(2).GetVar();
-			return () => f0((10 - v1.GetValue()), (15 - v2.GetValue()));
+			return () => ((f0() + 10) - v1.GetValue());
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1514,10 +1523,6 @@ self.C3_ExpressionFuncs = [
 		() => -100,
 		() => 748,
 		() => 1050,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0(100, 200);
-		},
 		() => "Animation 1",
 		() => "Animation 2",
 		() => 960,
@@ -1525,7 +1530,6 @@ self.C3_ExpressionFuncs = [
 		() => 1920,
 		() => 1080,
 		() => 1.5,
-		() => 62,
 		() => "TIME IS UP",
 		() => "TRY AGAIN",
 		() => "bitis"
